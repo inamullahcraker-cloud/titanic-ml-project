@@ -46,6 +46,7 @@
 | ------------------- | ------------------------------- | --------- |
 | Logistic Regression | Basic + Feature Engineering     | ~70–81%   |
 | Random Forest       | GridSearchCV + Tuned Parameters | **80.1%** |
+|   xgb               | GridSearchCV + Tuned Parameters |**80.1%+** |
 
 ---
 
