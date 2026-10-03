@@ -31,7 +31,10 @@
 
 * Switched to **Random Forest** for better non-linear modeling
 * Applied **GridSearchCV** to find optimal hyperparameters
-
+  
+#### 🔹 xgb Classifier (Advance Model)
+* Switched to **xgb classifier** for better non-linear modeling give accuracy (83+/-3.001)
+* Applied **GridSearchCV** to find optimal hyperparameters
 **Tuned Parameters (example):**
 
 * Number of estimators
@@ -46,7 +49,7 @@
 | ------------------- | ------------------------------- | --------- |
 | Logistic Regression | Basic + Feature Engineering     | ~70–81%   |
 | Random Forest       | GridSearchCV + Tuned Parameters | **80.1%** |
-|   xgb               | GridSearchCV + Tuned Parameters |**80.1%+** |
+|   xgb               | GridSearchCV + Tuned Parameters |**80.9%** |
 
 ---
 
@@ -54,6 +57,7 @@
 
 * Feature binning (especially Fare) improved model stability
 * Random Forest handled feature interactions better than Logistic Regression
+* xgb  reduce FP but increase the FN
 * Hyperparameter tuning (GridSearchCV) led to optimal performance
 
 ---
